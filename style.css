@@ -70,10 +70,12 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /**********************************************************/
+  /* GENERAL COMPONENTS */
 }
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 .hero {
   max-width: 130rem;
@@ -82,6 +84,7 @@ body {
   margin: 0 auto;
   align-items: center;
   gap: 9.6rem;
+  padding: 0 3.2rem;
 }
 .heading-primary {
   font-size: 5.2rem;
@@ -159,4 +162,17 @@ body {
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+.logo {
+  height: 2.2rem;
+}
+.main-nav {
 }
