@@ -321,3 +321,25 @@ body {
 }
 .step-img-box {
 }
+/************************************************************/
+/* SECTION MEALS AND LIST/GRID */
+.meal-lis {
+}
+.Meals {
+  display: flex;
+  max-width: 120rem;
+  justify-content: center;
+  padding: 4.8rem 3.5rem 4.8rem 3.5rem;
+}
+.meal-list-h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #000;
+}
+.meals-h4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.4rem;
+  color: #e67e22;
+  font-size: 1.5rem;
+}
