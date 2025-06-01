@@ -404,6 +404,7 @@ body {
 
 .main-section-card:last-child {
   box-shadow: none;
+  cursor: default;
 }
 .div-h3-box {
   display: flex;
@@ -449,7 +450,7 @@ body {
 }
 /*************************************************/
 /* ANIMATION BOX */
-.main-section-card:hover {
+.main-section-card-animation:hover {
   transform: translateY(-1.2rem);
 }
 .link-arrow {
@@ -458,11 +459,11 @@ body {
   align-items: center;
   font-size: 1.8rem;
 }
-.link-arrow-main:link,
-.link-arrow-main:visited {
+.link-arrow-main-animation:link,
+.link-arrow-main-animation:visited {
   text-decoration: none;
   color: #cf711f;
-  cursor: pointer;
+
   transition: all 0.5s;
   border-bottom: solid 0.1rem #cf711f;
   margin-bottom: 10rem;
