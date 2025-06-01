@@ -351,6 +351,9 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 .section-grid-one {
   display: grid;
@@ -362,12 +365,16 @@ body {
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 1rem;
+  stroke: rgb(27, 44, 1);
 }
 .main-section-card {
   max-width: 120rem;
   border-radius: 3%;
   box-shadow: 0 0 2rem 0rem rgba(0, 0, 0, 0.295);
   overflow: hidden;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 2.4rem;
 }
 
 .vegatarian-img {
@@ -439,4 +446,29 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+/*************************************************/
+/* ANIMATION BOX */
+.main-section-card:hover {
+  transform: translateY(-1.2rem);
+}
+.link-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+.link-arrow-main:link,
+.link-arrow-main:visited {
+  text-decoration: none;
+  color: #cf711f;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-bottom: solid 0.1rem #cf711f;
+  margin-bottom: 10rem;
+}
+.link-arrow-main:hover,
+.link-arrow-main:active {
+  color: #f03e3e;
+  border-bottom: 1px solid transparent;
 }
