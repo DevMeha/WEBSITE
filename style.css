@@ -459,11 +459,10 @@ body {
   align-items: center;
   font-size: 1.8rem;
 }
-.link-arrow-main-animation:link,
-.link-arrow-main-animation:visited {
+.link-arrow-main:link,
+.link-arrow-main:visited {
   text-decoration: none;
   color: #cf711f;
-
   transition: all 0.5s;
   border-bottom: solid 0.1rem #cf711f;
   margin-bottom: 10rem;
@@ -472,4 +471,73 @@ body {
 .link-arrow-main:active {
   color: #f03e3e;
   border-bottom: 1px solid transparent;
+}
+/* ************************************************************************** */
+/* SECTION BLOG WPISY */
+.section-testimonial {
+  background-color: #fdf2e9;
+}
+
+.testimoniol-h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+}
+.testimontial-h3 {
+  color: #cf711f;
+  margin-bottom: 2.4rem;
+}
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+  padding: 15rem;
+  padding-top: 0;
+  margin-top: -20rem;
+}
+.testimonial-div-heading {
+  padding: 5rem 10rem 0rem 10rem;
+  display: inline-block;
+}
+.img-figure {
+  border-radius: 50%;
+}
+.author-blog {
+  color: #333;
+}
+.blog-text {
+  margin-bottom: 1.2rem;
+}
+.grid-img-flex {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  unicode-bidi: isolate;
+}
+.grid-one-total {
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 55fr 45fr;
+  display: grid;
+}
+.img-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1.2rem;
+
+  padding: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+.img-meal-grid {
+  object-fit: cover;
+}
+.figure-total {
+}
+.img-grid img {
+  display: block;
+  width: 100%;
 }
