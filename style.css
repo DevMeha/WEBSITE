@@ -479,7 +479,7 @@ body {
 }
 
 .testimoniol-h1 {
-  font-size: 2.8rem;
+  font-size: 3.8rem;
   font-weight: 700;
   color: #000;
 }
@@ -503,12 +503,16 @@ body {
 }
 .img-figure {
   border-radius: 50%;
+  margin-bottom: 1.4rem;
 }
 .author-blog {
   color: #333;
+  font-size: 1.3rem;
 }
 .blog-text {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 .grid-img-flex {
   display: inline-block;
@@ -527,17 +531,25 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 1.2rem;
+  overflow: hidden;
 
   padding: 1.6rem;
   justify-content: center;
   align-items: center;
 }
 .img-meal-grid {
-  object-fit: cover;
+  overflow: hidden;
 }
 .figure-total {
 }
 .img-grid img {
   display: block;
   width: 100%;
+  transition: all 0.4s;
+}
+.img-grid img:hover {
+  transform: scale(1.1);
+}
+.img-grid > * {
+  overflow: hidden;
 }
