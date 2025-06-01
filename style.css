@@ -550,6 +550,6 @@ body {
 .img-grid img:hover {
   transform: scale(1.1);
 }
-.img-grid > * {
+.img-hiden {
   overflow: hidden;
 }
