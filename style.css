@@ -608,7 +608,8 @@ body {
   font-size: 6.4rem;
   margin-bottom: 2.8rem;
 }
-.link-eating-well {
+.link-eating-well:link,
+.link-eating-well:visited {
   display: inline-block;
   padding: 1.6rem 3.2rem;
   text-align: center;
@@ -637,7 +638,11 @@ body {
   font-weight: 700;
   position: absolute;
   right: 0;
-  top: 5rem;
+  top: 4rem;
   left: 15rem;
   transform: rotate(45deg);
+}
+.link-eating-well:hover,
+.link-eating-well:active {
+  background-color: #e67e22;
 }
