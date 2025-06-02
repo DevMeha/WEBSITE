@@ -400,7 +400,6 @@ body {
   width: 2.4rem;
   height: 2.4rem;
   color: #e67e22;
-
 }
 
 .main-section-card:last-child {
@@ -559,25 +558,25 @@ body {
 .heading-h1-h3 {
   padding: 5rem;
 }
-.pricing-h4{
+.pricing-h4 {
   color: #cf711f;
   font-size: 1.8rem;
   margin-bottom: 2.8rem;
-
 }
-.pricing-h1{
+.pricing-h1 {
   color: #000;
   font-size: 3.6rem;
 }
-.first-column-p{
+.first-column-p {
   font-weight: 400;
   margin-bottom: 3.4rem;
+  font-size: 1.8rem;
 }
-.ul-pricing{
+.ul-pricing {
   margin-bottom: 1.2rem;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
-.link-eating-well{
+.link-eating-well {
   color: #fff;
   background-color: #cf711f;
   text-decoration: none;
@@ -591,35 +590,54 @@ body {
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.466);
   display: inline-block;
   padding: 5.8rem;
-  margin-bottom:5rem ;
+  margin-bottom: 5rem;
   text-align: center;
-  
-  
+  position: relative;
+  overflow: hidden;
 }
 .first-column-h3 {
-  color: #cf711f;f
+  color: #cf711f;
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 2.8rem;
 }
 .first-column-h1 {
   text-align: center;
-  color: #000000;
-  font-weight: 700;
-  font-size: 5rem;
+  color: #000000b7;
+
+  font-size: 6.4rem;
   margin-bottom: 2.8rem;
 }
-.link-eating-well{
+.link-eating-well {
   display: inline-block;
   padding: 1.6rem 3.2rem;
   text-align: center;
-
+  font-size: 1.8rem;
 }
-.flex-colum-pricing{
+.flex-colum-pricing {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2.8rem;
-  
 }
-
+.checkmarker-table {
+  margin-bottom: 2.8rem;
+}
+.first-column-pricing-next {
+  background-color: #cf711f31;
+}
+.text-rotate {
+  background-color: #ffd43b;
+  width: 100px;
+  padding: 1rem 20rem 1rem 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  top: 5rem;
+  left: 15rem;
+  transform: rotate(45deg);
+}
